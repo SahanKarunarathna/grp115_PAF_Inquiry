@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Inquiry</title>
+<link rel="stylesheet" href="Views/bootstrap.min.css">
+	<script src="Components/jquery-3.6.0.min.js"></script>
+</head>
+<body class="container-fluid card" style="width:40rem;">
+	<h2 class="bg-danger text-white text-center">Inquiry</h2>
+	
+	<form action="register" method="post">
+    <table class="table table-hover">
+       <tr>
+        <td>Inquiry Type</td>
+        <td><input type="text" name="type" class="form-control"></td>
+       </tr>
+       <tr>
+        <td>Inquiry Header</td>
+        <td><input type="text" name="header" class="form-control"></td>
+       </tr>
+       <tr>
+        <td>Inquiry Body</td>
+        <td><input type="text" name="body" class="form-control"></td>
+       </tr>
+       <tr>
+        <td>Inquiry Date</td>
+        <td><input type="text" name="date" class="form-control"></td>
+       </tr>
+       <tr> 
+        <td><input type="submit" value="Submit" class="btn btn-success" ></td>
+        <td><input type="reset" value="Cancel" class="btn btn-secondary"></td>
+       </tr>
+    </table>
+    <a href='inList' class="btn btn-outline-primary">Inquiry List</a>
+</form>
+
+</body>
+</html>
